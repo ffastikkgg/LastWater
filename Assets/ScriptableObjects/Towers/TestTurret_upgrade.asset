@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500a608dd91904742a101a0525a3f71b, type: 3}
+  m_Name: TestTurret_upgrade
+  m_EditorClassIdentifier: 
+  TowerPrefab: {fileID: 8334726610078193990, guid: 950be0ad82a35b241b1317b4119958cb,
+    type: 3}
+  TowerShopCost: 10
+  TowerShopSprite: {fileID: 21300000, guid: c717dfd223b34ec459963e1900416aa3, type: 3}
