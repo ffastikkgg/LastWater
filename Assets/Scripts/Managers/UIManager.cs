@@ -11,8 +11,9 @@ public class UIManager : Singleton<UIManager>
     [SerializeField] private GameObject nodeUIPanel;
     [SerializeField] private GameObject achievementPanel;
     [SerializeField] private GameObject gameOverPanel;
-    [SerializeField] private GameObject vicotryPanel;
+    [SerializeField] private GameObject victoryPanel;
     [SerializeField] private GameObject levelSign;
+    [SerializeField] private GameObject gameMenuPanel;
 
     [Header("Text")]
     [SerializeField] private TextMeshProUGUI upgradeText;
@@ -49,7 +50,12 @@ public class UIManager : Singleton<UIManager>
         totalCoinsText.text = CurrencySystem.Instance.TotalCoins.ToString();
         lifesText.text = LevelManager.Instance.TotalLives.ToString();
         currentWaveText.text = $"Wave {LevelManager.Instance.CurrentWave}";
-    }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            ShowGameMenuPanel();
+        }
+     }
 
     public void SlowTime()
     { 
@@ -74,7 +80,7 @@ public class UIManager : Singleton<UIManager>
 
     public void ShowVictoryPanel()
     {
-        vicotryPanel.SetActive(true);
+        victoryPanel.SetActive(true);
         victoryCoinsText.text = CurrencySystem.Instance.TotalCoins.ToString();
         vLivesText.text = LevelManager.Instance.TotalLives.ToString();
 
@@ -83,6 +89,18 @@ public class UIManager : Singleton<UIManager>
             PlayerPrefs.SetInt("LevelPassed", sceneIndex);
         }
 
+    }
+
+    public void ShowGameMenuPanel()
+    {       
+            gameMenuPanel.SetActive(true);
+            gameOverTotalCoinsText.text = CurrencySystem.Instance.TotalCoins.ToString();
+            vLivesText.text = LevelManager.Instance.TotalLives.ToString();
+    }
+
+    public void CloseGameMenuPanel()
+    {
+        gameMenuPanel.SetActive(false);
     }
 
     public void RestartGame()
