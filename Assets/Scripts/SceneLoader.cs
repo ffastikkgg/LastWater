@@ -19,7 +19,7 @@ public class SceneLoader : MonoBehaviour
 
     public void LoadGameScene()
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(2);
     }
 
     public void LoadWorldMapScene()
