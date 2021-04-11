@@ -1,0 +1,892 @@
+fileFormatVersion: 2
+guid: 900be65033a3aac4cb11cc4df3edb316
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3948929340451579583
+    second: pixil-layer-roads_0
+  - first:
+      213: 39491519033384237
+    second: pixil-layer-roads_1
+  - first:
+      213: -7299050701790436122
+    second: pixil-layer-roads_2
+  - first:
+      213: -681345281321452916
+    second: pixil-layer-roads_3
+  - first:
+      213: -8775210723016490687
+    second: pixil-layer-roads_4
+  - first:
+      213: 6965798365739640154
+    second: pixil-layer-roads_5
+  - first:
+      213: 454221710373600561
+    second: pixil-layer-roads_6
+  - first:
+      213: -4583112216810321305
+    second: pixil-layer-roads_7
+  - first:
+      213: -1737740022284104693
+    second: pixil-layer-roads_8
+  - first:
+      213: -4760642209408639501
+    second: pixil-layer-roads_9
+  - first:
+      213: 4027844481843790823
+    second: pixil-layer-roads_10
+  - first:
+      213: -9168662109399906456
+    second: pixil-layer-roads_11
+  - first:
+      213: 1001886028988599351
+    second: pixil-layer-roads_12
+  - first:
+      213: 1877227186086446400
+    second: pixil-layer-roads_13
+  - first:
+      213: -1446747666832540689
+    second: pixil-layer-roads_14
+  - first:
+      213: 1898855474850486973
+    second: pixil-layer-roads_15
+  - first:
+      213: -4863783309455622127
+    second: pixil-layer-roads_16
+  - first:
+      213: -7888532924764949057
+    second: pixil-layer-roads_17
+  - first:
+      213: -8252996778173818977
+    second: pixil-layer-roads_18
+  - first:
+      213: -3111202491429991496
+    second: pixil-layer-roads_19
+  - first:
+      213: -707999325883514429
+    second: pixil-layer-roads_20
+  - first:
+      213: 5734614679803200150
+    second: pixil-layer-roads_21
+  - first:
+      213: -467036099217884403
+    second: pixil-layer-roads_22
+  - first:
+      213: -4160598221277123727
+    second: pixil-layer-roads_23
+  - first:
+      213: 1767912688696713930
+    second: pixil-layer-roads_24
+  - first:
+      213: 9081442118403796868
+    second: pixil-layer-roads_25
+  - first:
+      213: -6969446920202376861
+    second: pixil-layer-roads_26
+  - first:
+      213: 691009364267359642
+    second: pixil-layer-roads_27
+  - first:
+      213: -7422636087485700537
+    second: pixil-layer-roads_28
+  - first:
+      213: -7231288089407306623
+    second: pixil-layer-roads_29
+  - first:
+      213: 4763965632216352094
+    second: pixil-layer-roads_30
+  - first:
+      213: 2245471524649223395
+    second: pixil-layer-roads_31
+  - first:
+      213: -5409246410581552870
+    second: pixil-layer-roads_32
+  - first:
+      213: 2710394503013771459
+    second: pixil-layer-roads_33
+  - first:
+      213: 4902970407160707947
+    second: pixil-layer-roads_34
+  - first:
+      213: -2627114339062783280
+    second: pixil-layer-roads_35
+  - first:
+      213: 5675098228839645370
+    second: pixil-layer-roads_36
+  - first:
+      213: -6274844617618968492
+    second: pixil-layer-roads_37
+  - first:
+      213: 4794711932560551371
+    second: pixil-layer-roads_38
+  - first:
+      213: -150988780561817664
+    second: pixil-layer-roads_39
+  - first:
+      213: 5137753933995286178
+    second: pixil-layer-roads_40
+  - first:
+      213: -8940663280858758466
+    second: pixil-layer-roads_41
+  - first:
+      213: -8578266689321524546
+    second: pixil-layer-roads_42
+  - first:
+      213: -2733852894928873973
+    second: pixil-layer-roads_43
+  - first:
+      213: 3116171343255987261
+    second: pixil-layer-roads_44
+  - first:
+      213: 5755050747667270628
+    second: pixil-layer-roads_45
+  - first:
+      213: -3045422362425185555
+    second: pixil-layer-roads_46
+  - first:
+      213: -2058243888015190877
+    second: pixil-layer-roads_47
+  - first:
+      213: 3186455111073742472
+    second: pixil-layer-roads_48
+  - first:
+      213: 8628810984033954864
+    second: pixil-layer-roads_49
+  - first:
+      213: -8502475532891293765
+    second: pixil-layer-roads_50
+  - first:
+      213: 367791442857359716
+    second: pixil-layer-roads_51
+  - first:
+      213: -6792757608464050428
+    second: pixil-layer-roads_52
+  - first:
+      213: 5785954949249906388
+    second: pixil-layer-roads_53
+  - first:
+      213: -6473315557711645157
+    second: pixil-layer-roads_54
+  - first:
+      213: -7677122932762816127
+    second: pixil-layer-roads_55
+  - first:
+      213: 6526355284564767297
+    second: pixil-layer-roads_56
+  - first:
+      213: 8992241455036148542
+    second: pixil-layer-roads_57
+  - first:
+      213: 8617164106586197199
+    second: pixil-layer-roads_58
+  - first:
+      213: -7724731898157107335
+    second: pixil-layer-roads_59
+  - first:
+      213: -5074906553585103857
+    second: pixil-layer-roads_60
+  - first:
+      213: 1558286283879722064
+    second: pixil-layer-roads_61
+  - first:
+      213: 6951729757699846974
+    second: pixil-layer-roads_62
+  - first:
+      213: 8736275671977068904
+    second: pixil-layer-roads_63
+  - first:
+      213: 556006524484635574
+    second: pixil-layer-roads_64
+  - first:
+      213: 1468340703157755392
+    second: pixil-layer-roads_65
+  - first:
+      213: 4672693971267945067
+    second: pixil-layer-roads_66
+  - first:
+      213: -2167658913908485630
+    second: pixil-layer-roads_67
+  - first:
+      213: -6959892844431278534
+    second: pixil-layer-roads_68
+  - first:
+      213: 4509990898563285214
+    second: pixil-layer-roads_69
+  - first:
+      213: 9182777178623709430
+    second: pixil-layer-roads_70
+  - first:
+      213: -8068031132126917507
+    second: pixil-layer-roads_71
+  - first:
+      213: -2227715379661927163
+    second: pixil-layer-roads_72
+  - first:
+      213: -5805298620360523872
+    second: pixil-layer-roads_73
+  - first:
+      213: -395696700111106634
+    second: pixil-layer-roads_74
+  - first:
+      213: 6293684223321732873
+    second: pixil-layer-roads_75
+  - first:
+      213: 8887244939884809253
+    second: pixil-layer-roads_76
+  - first:
+      213: -139937011666184908
+    second: pixil-layer-roads_77
+  - first:
+      213: -8867584145048966402
+    second: pixil-layer-roads_78
+  - first:
+      213: -7217734072587146973
+    second: pixil-layer-roads_79
+  - first:
+      213: -6678734493027263769
+    second: pixil-layer-roads_80
+  - first:
+      213: 2537823708043048103
+    second: pixil-layer-roads_81
+  - first:
+      213: 1865865585307923925
+    second: pixil-layer-roads_82
+  - first:
+      213: -6653689881078078268
+    second: pixil-layer-roads_83
+  - first:
+      213: 4426427957110427769
+    second: pixil-layer-roads_84
+  - first:
+      213: 9156690748585408790
+    second: pixil-layer-roads_85
+  - first:
+      213: -595713838462243536
+    second: pixil-layer-roads_86
+  - first:
+      213: -2816171432211095223
+    second: pixil-layer-roads_87
+  - first:
+      213: 1372942147697840551
+    second: pixil-layer-roads_88
+  - first:
+      213: 1017265742993117578
+    second: pixil-layer-roads_89
+  - first:
+      213: 1490207541404443865
+    second: pixil-layer-roads_90
+  - first:
+      213: 7939718855623833648
+    second: pixil-layer-roads_91
+  - first:
+      213: 2325822245575974713
+    second: pixil-layer-roads_92
+  - first:
+      213: -7015419294997839575
+    second: pixil-layer-roads_93
+  - first:
+      213: 4911902479662744953
+    second: pixil-layer-roads_94
+  - first:
+      213: 1798412324580298863
+    second: pixil-layer-roads_95
+  - first:
+      213: -8106550747983223477
+    second: pixil-layer-roads_96
+  - first:
+      213: -7203058098490405951
+    second: pixil-layer-roads_97
+  - first:
+      213: -4543631159994547831
+    second: pixil-layer-roads_98
+  - first:
+      213: 5363877278182017903
+    second: pixil-layer-roads_99
+  - first:
+      213: 4891583069026606166
+    second: pixil-layer-roads_100
+  - first:
+      213: 8107333730452867946
+    second: pixil-layer-roads_101
+  - first:
+      213: 8567796769546085682
+    second: pixil-layer-roads_102
+  - first:
+      213: -7673380523506896839
+    second: pixil-layer-roads_103
+  - first:
+      213: -1835338204771224480
+    second: pixil-layer-roads_104
+  - first:
+      213: 8232350013793608469
+    second: pixil-layer-roads_105
+  - first:
+      213: 6007271855624646598
+    second: pixil-layer-roads_106
+  - first:
+      213: -1885317037498934396
+    second: pixil-layer-roads_107
+  - first:
+      213: -8708223128015485475
+    second: pixil-layer-roads_108
+  - first:
+      213: 4708435084544696433
+    second: pixil-layer-roads_109
+  - first:
+      213: -3598829528373333800
+    second: pixil-layer-roads_110
+  - first:
+      213: 5677390616713324628
+    second: pixil-layer-roads_111
+  - first:
+      213: 7565183079085487487
+    second: pixil-layer-roads_112
+  - first:
+      213: -1573178061406804674
+    second: pixil-layer-roads_113
+  - first:
+      213: -6554513462199802399
+    second: pixil-layer-roads_114
+  - first:
+      213: -4048772739114578285
+    second: pixil-layer-roads_115
+  - first:
+      213: 2614669089713649703
+    second: pixil-layer-roads_116
+  - first:
+      213: 3279560393293740057
+    second: pixil-layer-roads_117
+  - first:
+      213: 5055845102849773437
+    second: pixil-layer-roads_118
+  - first:
+      213: 2279665676533861742
+    second: pixil-layer-roads_119
+  - first:
+      213: 9053421456522692824
+    second: pixil-layer-roads_120
+  - first:
+      213: 5451208528360531013
+    second: pixil-layer-roads_121
+  - first:
+      213: 792581731586230952
+    second: pixil-layer-roads_122
+  - first:
+      213: 7697012345041065196
+    second: pixil-layer-roads_123
+  - first:
+      213: -8096974346012324275
+    second: pixil-layer-roads_124
+  - first:
+      213: -4364615278805420843
+    second: pixil-layer-roads_125
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pixil-layer-roads_1
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 914
+        width: 68
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d10abc35d4c8000800000000000000
+      internalID: 39491519033384237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-roads_4
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 818
+        width: 68
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14147692750383680800000000000000
+      internalID: -8775210723016490687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-roads_10
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 823
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e301de3737c5e730800000000000000
+      internalID: 4027844481843790823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-roads_15
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 722
+        width: 68
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbad44a6ef61a5a10800000000000000
+      internalID: 1898855474850486973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-roads_20
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 731
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c14f7f3d5eac26f0800000000000000
+      internalID: -707999325883514429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-roads_31
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 668
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4c8f36474892f10800000000000000
+      internalID: 2245471524649223395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-roads_35
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 659
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2e3db7d6d9a8bd0800000000000000
+      internalID: -2627114339062783280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-roads_41
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 617
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb20900ad126ce380800000000000000
+      internalID: -8940663280858758466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-roads_50
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 593
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb770960d83210a80800000000000000
+      internalID: -8502475532891293765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-roads_60
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 539
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c0245a06f4299b0800000000000000
+      internalID: -5074906553585103857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-roads_71
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 491
+        width: 92
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c48cc7e68980090800000000000000
+      internalID: -8068031132126917507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-roads_94
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 389
+        width: 98
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97588a7e7459a2440800000000000000
+      internalID: 4911902479662744953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-roads_108
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 428
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5cbc5043d262780800000000000000
+      internalID: -8708223128015485475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-roads_116
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 380
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72873991fab294420800000000000000
+      internalID: 2614669089713649703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-roads_119
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 329
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d8378cadff2af10800000000000000
+      internalID: 2279665676533861742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixil-layer-roads_122
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 284
+        width: 59
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa49a6b2e0dffa00800000000000000
+      internalID: 792581731586230952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
