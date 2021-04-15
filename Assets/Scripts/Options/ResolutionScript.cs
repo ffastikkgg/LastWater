@@ -79,10 +79,19 @@ public class ResolutionScript : MonoBehaviour
         return (currentIndex - 1) % collection.Count;
     }
 
+    public void SetScreenWindowed()
+    {
+        Screen.fullScreen = !Screen.fullScreen;
+    }
+
     public void ApplyChanges()
     {
         SetAndApplyResolution(currentResolutionIndex);
     }
 
+    public void ApplyWindowed()
+    {
+        SetScreenWindowed();
+    }
 
 }

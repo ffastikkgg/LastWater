@@ -9,7 +9,7 @@ public class Music : MonoBehaviour
 
     public void SetSfxLevel(float sfxLvl)
     {
-        masterMixer.SetFloat("volSfx", sfxLvl);
+        masterMixer.SetFloat("volSFX", sfxLvl);
     }
 
     public void SetMusicLevel(float musicLvl)
@@ -17,5 +17,15 @@ public class Music : MonoBehaviour
         masterMixer.SetFloat("volMusic", musicLvl);
     }
 
-
+    public void Toggle_changed(bool newValue)
+    {
+        if (newValue == true)
+        {
+            masterMixer.SetFloat("volMaster", -80);
+        }
+        else 
+        {
+            masterMixer.SetFloat("volMaster", 0);
+        }
+    }
 }
