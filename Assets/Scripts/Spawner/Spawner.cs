@@ -29,9 +29,16 @@ public class Spawner : MonoBehaviour
     [SerializeField] private float minRandomDelay;
     [SerializeField] private float maxRandomDelay;
 
+    [Header("EnemyUntil")]
+    [SerializeField] private int firstEnemyUntil = 10;
+    [SerializeField] private int secondEnemyUntil = 20;
+    [SerializeField] private int thirdEnemyUntil = 30;
+    [SerializeField] private int fourthEnemyUntil = 40;
+
     [Header("Poolers")]
     [SerializeField] private ObjectPooler enemyWave10Pooler;
     [SerializeField] private ObjectPooler enemyWave11To20Pooler;
+    [SerializeField] private ObjectPooler enemyWave21To30Pooler;
 
     private float spawnTimer;
     private int enemiesSpawned;
@@ -70,14 +77,19 @@ public class Spawner : MonoBehaviour
     private ObjectPooler GetPooler()
     {
         int currentWave = LevelManager.Instance.CurrentWave;
-        if (currentWave <= 10)
+        if (currentWave <= firstEnemyUntil)
         {
             return enemyWave10Pooler;
         }
 
-        if (currentWave > 10 && currentWave <=20)
+        if (currentWave > firstEnemyUntil && currentWave <= secondEnemyUntil)
         {
             return enemyWave11To20Pooler;
+        }
+
+        if (currentWave > secondEnemyUntil && currentWave <= thirdEnemyUntil)
+        {
+            return enemyWave21To30Pooler;
         }
 
         return null;

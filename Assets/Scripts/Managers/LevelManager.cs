@@ -6,7 +6,11 @@ public class LevelManager : Singleton<LevelManager>
 {
     [SerializeField] private int lives = 10;
 
+    [SerializeField] private int waveToWin = 10;
+
     public bool win { get; set; }
+
+    public int Score { get; set; }
 
     public int TotalLives { get; set; }
     public int CurrentWave { get; set; }
@@ -17,14 +21,16 @@ public class LevelManager : Singleton<LevelManager>
         win = false;
         TotalLives = lives;
         CurrentWave = 1;
+        Score = 0;
     }
 
     private void Update()
     {
-        if (CurrentWave == 2)
+        if (CurrentWave == waveToWin)
         {
             win = true;
             VictoryShow();
+            Victory_points();
         }
     }
 
@@ -55,6 +61,11 @@ public class LevelManager : Singleton<LevelManager>
     private void VictoryShow()
     {
         UIManager.Instance.ShowVictoryPanel();
+    }
+
+    private void Victory_points()
+    {
+        Score = 100;
     }
 
     private void OnEnable()

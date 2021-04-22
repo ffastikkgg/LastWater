@@ -12,8 +12,9 @@ public class UIManager : Singleton<UIManager>
     [SerializeField] private GameObject achievementPanel;
     [SerializeField] private GameObject gameOverPanel;
     [SerializeField] private GameObject victoryPanel;
-    [SerializeField] private GameObject levelSign;
     [SerializeField] private GameObject gameMenuPanel;
+    [SerializeField] private GameObject optionsPanel;
+    //[SerializeField] private GameObject levelSign;
 
     [Header("Text")]
     [SerializeField] private TextMeshProUGUI upgradeText;
@@ -27,7 +28,7 @@ public class UIManager : Singleton<UIManager>
 
     [SerializeField] private TextMeshProUGUI victoryCoinsText;
     [SerializeField] private TextMeshProUGUI vLivesText;
-    [SerializeField] private TextMeshProUGUI waterText;
+    [SerializeField] private TextMeshProUGUI score;
 
 
     int sceneIndex, levelPassed;
@@ -37,7 +38,7 @@ public class UIManager : Singleton<UIManager>
 
     private void Start()
     {
-        levelSign = GameObject.Find("LevelNumber");
+        //levelSign = GameObject.Find("LevelNumber");
 
         sceneIndex = SceneManager.GetActiveScene().buildIndex;
         levelPassed = PlayerPrefs.GetInt("LevelPassed");
@@ -56,6 +57,11 @@ public class UIManager : Singleton<UIManager>
             ShowGameMenuPanel();
         }
      }
+
+    public void StopTime()
+    {
+        Time.timeScale = 0f;
+    }
 
     public void SlowTime()
     { 
@@ -83,6 +89,7 @@ public class UIManager : Singleton<UIManager>
         victoryPanel.SetActive(true);
         victoryCoinsText.text = CurrencySystem.Instance.TotalCoins.ToString();
         vLivesText.text = LevelManager.Instance.TotalLives.ToString();
+        score.text = LevelManager.Instance.Score.ToString();
 
         if (levelPassed < sceneIndex)
         {
@@ -96,22 +103,30 @@ public class UIManager : Singleton<UIManager>
             gameMenuPanel.SetActive(true);
             gameOverTotalCoinsText.text = CurrencySystem.Instance.TotalCoins.ToString();
             vLivesText.text = LevelManager.Instance.TotalLives.ToString();
+            StopTime();
     }
 
     public void CloseGameMenuPanel()
     {
         gameMenuPanel.SetActive(false);
+        ResumeTime();
     }
 
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        ResumeTime();
     }
 
 
     public void OpenAchievementPanel(bool status)
     {
         achievementPanel.SetActive(status);
+    }
+
+    public void OpenOptionsMenu(bool status)
+    { 
+        optionsPanel.SetActive(status);
     }
 
 
