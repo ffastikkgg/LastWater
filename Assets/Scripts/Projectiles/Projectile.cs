@@ -15,26 +15,33 @@ public class Projectile : MonoBehaviour
 
     protected Enemy enemyTarget;
 
+    private AudioSource shot;
+
+
+
     protected virtual void Update()
     {
         if (enemyTarget != null)
-        {
+        {           
             MoveProjectile();
             RotateProjectile();
         }
     }
 
+
+
     protected virtual void MoveProjectile()
-    {
+    {      
         transform.position = Vector2.MoveTowards(transform.position,
             enemyTarget.transform.position, moveSpeed * Time.deltaTime);
+
         float distanceToTarget = (enemyTarget.transform.position - transform.position).magnitude;
         if (distanceToTarget < minDistanceToDealDamage)
         {
             OnEnemyHit?.Invoke(enemyTarget, Damage);
             enemyTarget.EnemyHealth.DealDamage(Damage);
             TowerOwner.ResetTurretProjectile();
-            ObjectPooler.ReturnToPool(gameObject);
+            ObjectPooler.ReturnToPool(gameObject);           
         }
     }
 
@@ -55,6 +62,4 @@ public class Projectile : MonoBehaviour
         enemyTarget = null;
         transform.localRotation = Quaternion.identity;
     }
-
-
 }

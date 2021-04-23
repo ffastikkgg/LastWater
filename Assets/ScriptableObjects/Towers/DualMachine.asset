@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TowerPrefab: {fileID: 6415037479236210028, guid: 00944bb7bbede344f96368ccc2ed3ca0,
     type: 3}
-  TowerShopCost: 10
-  TowerShopSprite: {fileID: 21300000, guid: 4cccc8227858810498350d0ef9231fc9, type: 3}
+  TowerShopCost: 50
+  TowerShopSprite: {fileID: 21300000, guid: 6b64b4d526a3fef4f842293abc6ff433, type: 3}

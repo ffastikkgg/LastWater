@@ -7,6 +7,9 @@ public class MachineTowerProjectile : TowerProjectiles
     [SerializeField] private bool isDualMachine;
     [SerializeField] private float spreadRange;
 
+    private AudioSource shot;
+
+
 
     protected override void Update()
     {
@@ -24,13 +27,17 @@ public class MachineTowerProjectile : TowerProjectiles
 
     protected override void LoadProjectile()
     {
-        
+        shot = GetComponent<AudioSource>();
     }
 
     private void FireProjectile(Vector3 direction)
     {
+        shot = GetComponent<AudioSource>();
+        shot.Play();
+
         GameObject instance = pooler.GetInstanceFromPool();
         instance.transform.position = projectileSpawnPosition.position;
+
 
         MachineProjectile projectile = instance.GetComponent<MachineProjectile>();
         projectile.Direction = direction;

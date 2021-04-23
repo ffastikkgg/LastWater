@@ -8,8 +8,8 @@ public class TankTowerProjectile : TowerProjectiles
     {
         if (Time.time > nextAttackTime)
         {
-            if (tower.CurrentEnemyTarget != null 
-                && tower.CurrentEnemyTarget.EnemyHealth.CurrentHealth > 0 )
+            if (tower.CurrentEnemyTarget != null
+                && tower.CurrentEnemyTarget.EnemyHealth.CurrentHealth > 0)
             {
                 FireProjectile(tower.CurrentEnemyTarget);
             }
@@ -18,10 +18,7 @@ public class TankTowerProjectile : TowerProjectiles
         }
     }
 
-    protected override void LoadProjectile()
-    {
-       
-    }
+    protected override void LoadProjectile() { }
 
     private void FireProjectile(Enemy enemy)
     {
@@ -35,8 +32,5 @@ public class TankTowerProjectile : TowerProjectiles
         currentProjectileLoaded.SetEnemy(enemy);
         currentProjectileLoaded.Damage = Damage;
         instance.SetActive(true);
-    
     }
-
 }
-

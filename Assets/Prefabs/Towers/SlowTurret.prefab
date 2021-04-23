@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e617e5f5ada535641aaab1e79b484214, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 8.13
+  attackRange: 5
 --- !u!114 &1342189750437897350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63,8 +63,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectileSpawnPosition: {fileID: 1342189751339211534}
-  delayBtwAttacks: 0.33
-  damage: 3
+  delayBtwAttacks: 0.1
+  damage: 0.2
 --- !u!114 &1342189750437897351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94,7 +94,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 8.13
+  m_Radius: 5
 --- !u!114 &1342189750437897347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,8 +109,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   upgradeInitialCost: 10
   upgradeCostIncremental: 10
-  damageIncremental: 2
-  delayReduce: 0.1
+  damageIncremental: 0.1
+  delayReduce: 0.005
   sellPert: 0.5
 --- !u!1 &1342189750920951711
 GameObject:

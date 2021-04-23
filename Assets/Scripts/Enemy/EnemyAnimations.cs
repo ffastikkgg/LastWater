@@ -8,12 +8,17 @@ public class EnemyAnimations : MonoBehaviour
     private Enemy _enemy;
     private EnemyHealth enemyHealth;
 
+    private AudioSource deadSound;
+
+
     // Start is called before the first frame update
     private void Start()
     {
         animator = GetComponent<Animator>();
         _enemy = GetComponent<Enemy>();
         enemyHealth = GetComponent<EnemyHealth>();
+
+        deadSound = GetComponent<AudioSource>();
     }
 
     private void PlayHurtAnimation()
@@ -47,7 +52,9 @@ public class EnemyAnimations : MonoBehaviour
 
     private IEnumerator PlayDead()
     {
-       _enemy.StopMovement();
+        deadSound.Play();
+
+        _enemy.StopMovement();
         PlayDieAnimation();
         yield return new WaitForSeconds(GetCurrentAnimationLenght() + 0.3f);
         _enemy.ResumeMovement();

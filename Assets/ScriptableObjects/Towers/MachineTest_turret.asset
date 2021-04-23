@@ -15,4 +15,4 @@ MonoBehaviour:
   TowerPrefab: {fileID: 7190926525264250615, guid: abb3aa71131af5a48a489e6b8092d81f,
     type: 3}
   TowerShopCost: 10
-  TowerShopSprite: {fileID: 21300000, guid: c717dfd223b34ec459963e1900416aa3, type: 3}
+  TowerShopSprite: {fileID: 21300000, guid: a650ca912cd97aa4cb927d2c004e9857, type: 3}

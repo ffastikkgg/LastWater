@@ -10,6 +10,8 @@ public class EnemyHealth : MonoBehaviour
     public static Action<Enemy> OnEnemyKilled;
     public static Action<Enemy> OnEnemyHit;
 
+    private AudioSource deadSound;
+
 
     [SerializeField] private GameObject healthBarPrefab;
     [SerializeField] private Transform barPosition;
@@ -29,19 +31,15 @@ public class EnemyHealth : MonoBehaviour
         CurrentHealth = initialHealth;
 
         enemy = GetComponent<Enemy>();
+
+        deadSound = GetComponent<AudioSource>();
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            DealDamage(5f);
-        }
 
         healthBar.fillAmount = Mathf.Lerp(healthBar.fillAmount, CurrentHealth / maxHealth,
             Time.deltaTime * 10f);
-
-
     }
 
     private void CreateHealthBar()
@@ -60,6 +58,7 @@ public class EnemyHealth : MonoBehaviour
         if (CurrentHealth <= 0)
         {
             CurrentHealth = 0;
+            //deadSound.Play();
             Die();
         }
         else 
@@ -79,7 +78,7 @@ public class EnemyHealth : MonoBehaviour
     {
         AchievementsManager.Instance.AddProgress("Kill20", 1);
         AchievementsManager.Instance.AddProgress("Kill50", 1);
-        AchievementsManager.Instance.AddProgress("Kill100", 1);
+        AchievementsManager.Instance.AddProgress("Kill100", 1);       
         OnEnemyKilled?.Invoke(enemy);
     }
 }
