@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 500a608dd91904742a101a0525a3f71b, type: 3}
   m_Name: Test_tankturret
   m_EditorClassIdentifier: 
-  TowerPrefab: {fileID: 1342189750437897349, guid: 11191b5e3d8396245bd3965dc4988bfa,
+  TowerPrefab: {fileID: 7979955777635602127, guid: 9e2f104d3ef037c4688585bcd9f82e2d,
     type: 3}
   TowerShopCost: 10
   TowerShopSprite: {fileID: 21300000, guid: 5474253063dc2c045bb68c745541a4dd, type: 3}

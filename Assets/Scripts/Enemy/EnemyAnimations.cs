@@ -20,12 +20,12 @@ public class EnemyAnimations : MonoBehaviour
 
         deadSound = GetComponent<AudioSource>();
     }
-
-    private void PlayHurtAnimation()
-    {
-        animator.SetTrigger("Hurt");
-    }
-
+    //**
+   // private void PlayHurtAnimation()
+   // {
+   //     animator.SetTrigger("Hurt");
+    //}
+    
     private void PlayDieAnimation()
     {
         animator.SetTrigger("Die");
@@ -38,15 +38,15 @@ public class EnemyAnimations : MonoBehaviour
         return animationLenght;
     }
 
-/**
-    private IEnumerator PlayHurt()
-    {
-        _enemy.StopMovement();
-        PlayHurtAnimation();
-        yield return new WaitForSeconds(GetCurrentAnimationLenght());
-        _enemy.ResumeMovement();
-    }
-    **/
+
+  //  private IEnumerator PlayHurt()
+   // {
+   //     _enemy.StopMovement();
+   //     PlayHurtAnimation();
+  //      yield return new WaitForSeconds(GetCurrentAnimationLenght());
+  //      _enemy.ResumeMovement();
+  //  }
+
 
 
 
@@ -62,15 +62,15 @@ public class EnemyAnimations : MonoBehaviour
         ObjectPooler.ReturnToPool(_enemy.gameObject);
     }
 
-    /**
-   private void EnemyHit(Enemy enemy)
-   {
-       if (_enemy == enemy)
-       {
-           StartCoroutine(PlayHurt());
-       }
-   }
-     **/
+
+  // private void EnemyHit(Enemy enemy)
+  // {
+   //    if (_enemy == enemy)
+   //    {
+   //        StartCoroutine(PlayHurt());
+  //     }
+   //}
+
 
     private void EnemyDead(Enemy enemy)
     {
@@ -89,7 +89,7 @@ public class EnemyAnimations : MonoBehaviour
 
     private void OnDisable()
     {
-        //EnemyHealth.OnEnemyHit -= EnemyHit;
+       // EnemyHealth.OnEnemyHit -= EnemyHit;
         EnemyHealth.OnEnemyKilled -= EnemyDead;
     }
 }

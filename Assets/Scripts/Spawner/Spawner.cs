@@ -39,6 +39,7 @@ public class Spawner : MonoBehaviour
     [SerializeField] private ObjectPooler enemyWave10Pooler;
     [SerializeField] private ObjectPooler enemyWave11To20Pooler;
     [SerializeField] private ObjectPooler enemyWave21To30Pooler;
+    [SerializeField] private ObjectPooler enemyWave21To33Pooler;
 
     private float spawnTimer;
     private int enemiesSpawned;
@@ -90,6 +91,10 @@ public class Spawner : MonoBehaviour
         if (currentWave > secondEnemyUntil && currentWave <= thirdEnemyUntil)
         {
             return enemyWave21To30Pooler;
+        }
+        if (currentWave > thirdEnemyUntil && currentWave <= fourthEnemyUntil)
+        {
+            return enemyWave21To33Pooler;
         }
 
         return null;

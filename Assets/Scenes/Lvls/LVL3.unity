@@ -2343,8 +2343,8 @@ MonoBehaviour:
   delayBtwSpawns: 2
   minRandomDelay: 1
   maxRandomDelay: 3
-  firstEnemyUntil: 7
-  secondEnemyUntil: 8
+  firstEnemyUntil: 5
+  secondEnemyUntil: 11
   thirdEnemyUntil: 20
   fourthEnemyUntil: 40
   enemyWave10Pooler: {fileID: 1752360649}
@@ -8849,7 +8849,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dc456264673beb4f8ae8a688a3d4722, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinTest: 50
+  coinTest: 55
 --- !u!4 &860099701
 Transform:
   m_ObjectHideFlags: 0
@@ -9279,7 +9279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lives: 10
-  waveToWin: 15
+  waveToWin: 10
 --- !u!4 &972196934
 Transform:
   m_ObjectHideFlags: 0
@@ -12727,7 +12727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98a83de56828a14459013f04d1375b13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 5860794292277438179, guid: 2ee7c4ee4cf24794eb7227d2f9842db9, type: 3}
+  prefab: {fileID: 7825212638059726624, guid: 9d1c88d4711cc1044a8bc70e173ca82c, type: 3}
   poolSize: 1
 --- !u!1 &1580752696
 GameObject:
@@ -14647,7 +14647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98a83de56828a14459013f04d1375b13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 5694169276929022875, guid: a63e83cc39f18084bbc8dcd2d3fbe024, type: 3}
+  prefab: {fileID: 5860794292277438179, guid: 2ee7c4ee4cf24794eb7227d2f9842db9, type: 3}
   poolSize: 1
 --- !u!1 &1756211317
 GameObject:

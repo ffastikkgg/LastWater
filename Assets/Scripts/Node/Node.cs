@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Node : MonoBehaviour
@@ -61,7 +59,6 @@ public class Node : MonoBehaviour
     {
         attackRangeSprite.SetActive(true);
         attackRangeSprite.transform.localScale = rangeOriginalSize * Tower.AttackRange / (rangeSize / 2);
-
     }
 
 }

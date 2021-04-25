@@ -2343,9 +2343,9 @@ MonoBehaviour:
   delayBtwSpawns: 2
   minRandomDelay: 1
   maxRandomDelay: 3
-  firstEnemyUntil: 7
-  secondEnemyUntil: 8
-  thirdEnemyUntil: 20
+  firstEnemyUntil: 3
+  secondEnemyUntil: 10
+  thirdEnemyUntil: 12
   fourthEnemyUntil: 40
   enemyWave10Pooler: {fileID: 1752360649}
   enemyWave11To20Pooler: {fileID: 1558575090}
@@ -4393,7 +4393,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dc456264673beb4f8ae8a688a3d4722, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinTest: 30
+  coinTest: 35
 --- !u!4 &860099701
 Transform:
   m_ObjectHideFlags: 0
@@ -12208,7 +12208,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1530538930
 Transform:
   m_ObjectHideFlags: 0
@@ -12235,7 +12235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98a83de56828a14459013f04d1375b13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 5860794292277438179, guid: 2ee7c4ee4cf24794eb7227d2f9842db9, type: 3}
+  prefab: {fileID: 7825212638059726624, guid: 9d1c88d4711cc1044a8bc70e173ca82c, type: 3}
   poolSize: 1
 --- !u!4 &1552858543 stripped
 Transform:

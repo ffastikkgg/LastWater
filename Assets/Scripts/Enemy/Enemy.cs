@@ -12,6 +12,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float moveSpeed = 3f;
     [SerializeField] private float loot = 3;
 
+    [SerializeField] private AudioSource dead;
+
 
     // Move Speed Of our enemy
     public float MoveSpeed { get; set; }
@@ -30,12 +32,12 @@ public class Enemy : MonoBehaviour
     private int currentWaypointIndex;
     private Vector3 lastPointPosition;
 
-    private EnemyHealth enemyHealth;
+    private EnemyHealth _enemyHealth;
     private SpriteRenderer spriteRenderer;
 
     private void Start()
     {
-        enemyHealth = GetComponent<EnemyHealth>();
+        _enemyHealth = GetComponent<EnemyHealth>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         EnemyHealth = GetComponent<EnemyHealth>();
 
@@ -121,7 +123,7 @@ public class Enemy : MonoBehaviour
     private void EndPointReached()
     {
         OnEndReached?.Invoke(this);
-        enemyHealth.ResetHealth();
+        _enemyHealth.ResetHealth();
         ObjectPooler.ReturnToPool(gameObject);
     }    
 

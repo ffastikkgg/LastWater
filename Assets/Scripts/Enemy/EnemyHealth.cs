@@ -10,8 +10,6 @@ public class EnemyHealth : MonoBehaviour
     public static Action<Enemy> OnEnemyKilled;
     public static Action<Enemy> OnEnemyHit;
 
-    private AudioSource deadSound;
-
 
     [SerializeField] private GameObject healthBarPrefab;
     [SerializeField] private Transform barPosition;
@@ -31,8 +29,6 @@ public class EnemyHealth : MonoBehaviour
         CurrentHealth = initialHealth;
 
         enemy = GetComponent<Enemy>();
-
-        deadSound = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -58,7 +54,6 @@ public class EnemyHealth : MonoBehaviour
         if (CurrentHealth <= 0)
         {
             CurrentHealth = 0;
-            //deadSound.Play();
             Die();
         }
         else 

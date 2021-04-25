@@ -13,7 +13,7 @@ public class Projectile : MonoBehaviour
     public TowerProjectiles TowerOwner { get; set; }
     public float Damage { get; set; }
 
-    protected Enemy enemyTarget;
+    protected Enemy _enemyTarget;
 
     private AudioSource shot;
 
@@ -21,7 +21,7 @@ public class Projectile : MonoBehaviour
 
     protected virtual void Update()
     {
-        if (enemyTarget != null)
+        if (_enemyTarget != null)
         {           
             MoveProjectile();
             RotateProjectile();
@@ -33,13 +33,13 @@ public class Projectile : MonoBehaviour
     protected virtual void MoveProjectile()
     {      
         transform.position = Vector2.MoveTowards(transform.position,
-            enemyTarget.transform.position, moveSpeed * Time.deltaTime);
+            _enemyTarget.transform.position, moveSpeed * Time.deltaTime);
 
-        float distanceToTarget = (enemyTarget.transform.position - transform.position).magnitude;
+        float distanceToTarget = (_enemyTarget.transform.position - transform.position).magnitude;
         if (distanceToTarget < minDistanceToDealDamage)
         {
-            OnEnemyHit?.Invoke(enemyTarget, Damage);
-            enemyTarget.EnemyHealth.DealDamage(Damage);
+            OnEnemyHit?.Invoke(_enemyTarget, Damage);
+            _enemyTarget.EnemyHealth.DealDamage(Damage);
             TowerOwner.ResetTurretProjectile();
             ObjectPooler.ReturnToPool(gameObject);           
         }
@@ -47,19 +47,19 @@ public class Projectile : MonoBehaviour
 
     private void RotateProjectile()
     {
-        Vector3 enemyPos = enemyTarget.transform.position - transform.position;
+        Vector3 enemyPos = _enemyTarget.transform.position - transform.position;
         float angle = Vector3.SignedAngle(transform.up, enemyPos, transform.forward);
         transform.Rotate(0f, 0f, angle);
     }
 
     public void SetEnemy(Enemy enemy)
     {
-        enemyTarget = enemy;
+        _enemyTarget = enemy;
     }
 
     public void ResetProjectile()
     {
-        enemyTarget = null;
+        _enemyTarget = null;
         transform.localRotation = Quaternion.identity;
     }
 }

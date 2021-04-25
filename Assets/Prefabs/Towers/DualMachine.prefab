@@ -292,7 +292,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileSpawnPosition: {fileID: 6415037479181014217}
   delayBtwAttacks: 0.4
-  damage: 2
+  damage: 3
   isDualMachine: 1
   spreadRange: 17.09
 --- !u!114 &6415037479236210018
